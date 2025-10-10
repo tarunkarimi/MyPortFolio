@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Karimi Tarun Teja</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#home" class="nav-logo">Karimi Tarun Teja</a>
+        <button class="nav-toggle" id="navToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-name">Hi There,</h1>
+          <h1 class="hero-name">I'm Tarun Teja <span class="highlight-name">Karimi</span></h1>
+          <div class="typing-container">
+            I Am Into <span class="typing-text"></span>
+          </div>
+          <div class="hero-buttons fade-in-up-delay-3">
+            <a href="https://drive.google.com/file/d/183olZ5gSgZUyZRdZ9PSvC3G-cz5WxMxA/view?usp=drive_link" class="btn btn-primary" target="_blank">Resume ></a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+          </div>
+          <div class="social-links fade-in-up-delay-4">
+            <a href="https://github.com/tarunkarimi" target="_blank" class="social-icon">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/tarun-teja-karimi-689785214/" target="_blank" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/ta_run_1508/" target="_blank" class="social-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="hero-image fade-in-right">
+          <div class="profile-image-container">
+            <div class="profile-image-bg"></div>
+            <img src="Images\logo.jpg" alt="Profile" class="profile-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">
+          <i class="fas fa-user"></i>
+          <span class="white">About</span> <span class="violet">Me</span>
+        </h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a passionate AI/ML enthusiast and Python developer with a keen interest in building intelligent systems and data-driven solutions.
+              I recently completed my B.Tech in Computer Science at NIT Meghalaya, and I specialize in developing Machine Learning models, Recommendation Systems, and interactive data-driven applications.
+            </p>
+            <p>
+              My expertise spans Python, Pandas, Scikit-Learn, and web technologies for creating interactive prototypes and dashboards.
+              I enjoy exploring Generative AI, Transformer models, and advanced ML techniques to solve real-world problems.
+            </p>
+            <p>
+              When I'm not coding, I love experimenting with new ML algorithms, visualizing data insights, and building personal projects that push the boundaries of AI and technology.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="skills" class="skills">
+      <h2 class="section-title">
+        <i class="fas fa-laptop-code"></i>
+        <span class="white">Skills &</span> <span class="yellow">Abilities</span>
+      </h2>
+      
+      <div class="skills-grid">
+        <!-- Skill Cards -->
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+          <p>Python</p>
+        </div>
+        
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+          <p>Core Java</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="R Programming" />
+          <p>R Programming</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
+          <p>MySQL</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+          <p>MongoDB</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/5817/5817637.png" alt="Machine Learning" />
+          <p>Machine Learning</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://img.icons8.com/color/96/artificial-intelligence.png" alt="Generative AI" />
+          <p>Generative AI</p>
+        </div>
+
+        <div class="skill-card" onclick="window.open('https://github.com/your-username/hadoop-project', '_blank')" style="cursor: pointer;">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hadoop/hadoop-original.svg" alt="Hadoop" />
+          <p>Hadoop</p>
+        </div>
+
+        <div class="skill-card" onclick="window.open('https://github.com/your-username/apache-spark-project', '_blank')" style="cursor: pointer;">
+          <img src="https://www.databricks.com/wp-content/uploads/2019/02/spark-white.png" alt="Apache Spark" />
+          <p>Apache Spark</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" />
+          <p>Linux</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://img.icons8.com/color/96/tableau-software.png" alt="Tableau" />
+          <p>Tableau</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" alt="MS Excel" />
+          <p>MS Excel</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+          <p>HTML</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+          <p>CSS</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" />
+          <p>GitHub</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience">
+      <div class="container">
+        <h2 class="section-title">
+          <i class="fas fa-briefcase"></i>
+          <span class="White">My</span> <span class="violet">Experience</span>
+        </h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Software development Intern</h3>
+              <p class="timeline-date">June 2023 - August 2023</p>
+              <p class="timeline-description">
+                <ul>
+                <li>Worked on app development at Hivericks Technologies, where I contributed to the front-end development of a Virtual Queue Management System by designing and developing user-friendly waiting and landing pages.</li>
+                <li>Dedicated routes for premium users and collaborated with the backend team on integration to deliver a seamless user experience.</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+    <section id="education" class="education">
+      <div class="container">
+        <h2 class="section-title">
+        🎓 <span class="White">My</span> <span class="violet">Education</span>
+        </h2>
+        <div class="education-grid">
+          <div class="education-card">
+            <div class="education-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>CDAC Bangalore</h3>
+            <p class="education-degree">PG-Diploma in Big Data Analytics</p>
+            <p class="education-date">Feb 2025 - Aug 2025</p>
+          </div>
+          <div class="education-card">
+            <div class="education-icon">
+              <i class="fas fa-school"></i>
+            </div>
+            <h3>NIT Meghalaya</h3>
+            <p class="education-degree">B.Tech in Computer Science Engineering</p>
+            <p class="education-date">Dec 2020 - May 2024</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">
+          <i class="fas fa-laptop-code"></i>
+          <span class="white">My</span> <span class="Purple">Projects</span>
+        </h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <a href="https://github.com/tarunkarimi/Movie_Recommendation_System" target="_blank">
+              <img src="https://images.pexels.com/photos/4126724/pexels-photo-4126724.jpeg?auto=compress&cs=tinysrgb&w=600" alt="BuzzLetter">
+              </a>
+            </div>
+            <div class="project-content">
+              <h3>Movie Recommendation System</h3>
+              <p>An intelligent Movie Recommendation System that provides personalized movie suggestions based on user preferences and viewing patterns.</p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>ML</span>
+                <span>StreamLit</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Car Simulation">
+            </div>
+            <div class="project-content">
+              <h3>Continuous Health Monitoring System</h3>
+              <p>A real-time health monitoring system that collects and visualizes vital signs using sensors through a web application for continuous tracking.</p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>JavaScript</span>
+                <span>Sensors</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=600" alt="CodeAce">
+            </div>
+            <div class="project-content">
+              <h3>Attendance Management Software</h3>
+              <p>A smart Attendance Management Software that automates tracking and reporting of employee/student attendance for improved efficiency.</p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>MongoDB</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">
+          <i class="fas fa-headphones"></i>
+          <span class="white">Get In </span> <span class="yellow">Touch</span>
+        </h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Let's Connect</h3>
+            <p>I'm always interested in hearing about new projects and opportunities. Feel free to reach out!</p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:taruntejakarimi@gmail.com">taruntejakarimi@gmail.com</a>
+              </div>
+              <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/tarun-teja-karimi-689785214/" target="_blank">LinkedIn Profile</a>
+              </div>
+              <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/tarunkarimi" target="_blank">GitHub Profile</a>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <input type="text" placeholder="👤 Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder= "✉️ Email" required>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="💬 Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Tarun Teja Karimi. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="https://github.com/tarunkarimi" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/tarun-teja-karimi-689785214/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/ta_run_1508/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
