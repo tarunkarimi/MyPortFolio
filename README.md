@@ -20,7 +20,7 @@ Welcome to my personal portfolio! This portfolio showcases my projects, skills, 
 
 ### Data Analysis & Visualization
 - Excel, Tableau, Power BI
-- 
+
 ---
 
 ## 💻 Projects
@@ -72,9 +72,9 @@ npm install
 ```
 
 3. **Start the development server**
-   ```bash
-   npm run dev
-   ```
+ ```bash
+pm run dev
+```
 
 ---
 ## 📫 Contact
