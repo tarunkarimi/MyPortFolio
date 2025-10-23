@@ -4,13 +4,23 @@ Welcome to my personal portfolio! This portfolio showcases my projects, skills, 
 
 ---
 
-## 🔹 Features
+## ⚡ Skills
 
-- **Interactive Project Cards**: Hover effects and animations to showcase project details dynamically.  
-- **Responsive Design**: Optimized for all screen sizes, including desktop, tablet, and mobile.  
-- **Modern UI/UX**: Clean layout with colorful gradients, smooth transitions, and interactive elements.  
-- **Technology Tags**: Each project highlights the technologies used (Python, ML, Streamlit, Web, etc.).  
+### Programming Languages
+- Python, Core Java, R, JavaScript, HTML, CSS
 
+### Machine Learning & Data Science
+- Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, Plotly
+
+### Databases & Big Data
+- MySQL, MongoDB, Cassandra, HDFS, Hive, Spark, ETL
+
+### Tools & IDEs
+- Jupyter Notebook, VS Code, PyCharm, Git, GitHub, Kaggle, Google Colab, Anaconda
+
+### Data Analysis & Visualization
+- Excel, Tableau, Power BI
+- 
 ---
 
 ## 💻 Projects
@@ -35,47 +45,38 @@ Welcome to my personal portfolio! This portfolio showcases my projects, skills, 
 ### Attendance Management Software
 ![Attendance Management Software](https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600)
 - Efficient software to manage attendance, track working hours, and generate reports for organizations.
-- **Technologies**: Python, Web, Database
+- **Technologies**: Python, Web, Database  
 
 ---
 
-## ⚡ Skills
+## 🔹 Features
 
-- **Programming Languages**: Python, JavaScript, HTML, CSS  
-- **Machine Learning**: Scikit-learn, Pandas, NumPy  
-- **Web Development**: Streamlit, Flask, Responsive Design, Animations  
-- **Database**: MySQL, MongoDB    
+- **Interactive Project Cards**: Hover effects and animations to showcase project details dynamically.  
+- **Responsive Design**: Optimized for all screen sizes, including desktop, tablet, and mobile.  
+- **Modern UI/UX**: Clean layout with colorful gradients, smooth transitions, and interactive elements.  
+- **Technology Tags**: Each project highlights the technologies used (Python, ML, Streamlit, Web, etc.).  
 
 ---
 
-## ⚡ Skills
+## ⚙️ Setup & Installation
 
-### Programming Languages
-- Python, JavaScript, HTML, CSS, SQL, Java
+1. **Clone the repository**
+```bash
+git clone https://github.com/tarunkarimi/MyPortFolio.git
+cd MyPortFolio
+```
 
-### Web Development
-- HTML5, CSS3, JavaScript, Bootstrap, Tailwind CSS, Streamlit, Flask, Responsive Design, UI/UX Design, GitHub Pages
+2. **Install dependencies**
+ ```bash
+npm install
+```
 
-### Machine Learning & Data Science
-- Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, Plotly, TensorFlow, Keras, NLP, Text Classification, Regression, Classification, Clustering
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-### Databases & Big Data
-- MySQL, MongoDB, Cassandra, SQLite, HDFS, Hive, Spark, ETL, Data Warehousing, Data Lakes
-
-### Tools & IDEs
-- Jupyter Notebook, VS Code, PyCharm, Git, GitHub, Kaggle, Google Colab, Anaconda, Postman
-
-### Data Analysis & Visualization
-- Excel (Pivot Tables, Charts, Formulas), Tableau, Power BI, Matplotlib, Seaborn, Plotly, LOD Expressions, Descriptive Statistics
-
-### Cloud & DevOps (Basics)
-- AWS (EC2, Lambda, S3), Azure (VM, Data Factory), Docker, CI/CD Basics
-
-### Additional Skills
-- OOP, Functional Programming, Data Wrangling, ETL, NLP, API Integration, Project Documentation, Version Control
-
-
-----
+---
 ## 📫 Contact
 
 - **LinkedIn**: [Tarun Teja Karimi](https://linkedin.com/in/taruntejakarimi)  
