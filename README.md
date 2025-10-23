@@ -30,14 +30,12 @@ Welcome to my personal portfolio! This portfolio showcases my projects, skills, 
 ### Health Monitoring System
 ![Health Monitoring System](https://images.pexels.com/photos/416754/pexels-photo-416754.jpeg?auto=compress&cs=tinysrgb&w=600)
 - Real-time monitoring of vital health parameters to provide alerts and insights for patient care.
-- **Technologies**: Python, IoT, Healthcare  
-- [GitHub Link](#)
+- **Technologies**: Python, IoT, Healthcare
 
 ### Attendance Management Software
 ![Attendance Management Software](https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600)
 - Efficient software to manage attendance, track working hours, and generate reports for organizations.
-- **Technologies**: Python, Web, Database  
-- [GitHub Link](#)
+- **Technologies**: Python, Web, Database
 
 ---
 
@@ -46,25 +44,40 @@ Welcome to my personal portfolio! This portfolio showcases my projects, skills, 
 - **Programming Languages**: Python, JavaScript, HTML, CSS  
 - **Machine Learning**: Scikit-learn, Pandas, NumPy  
 - **Web Development**: Streamlit, Flask, Responsive Design, Animations  
-- **Database**: MySQL, MongoDB  
+- **Database**: MySQL, MongoDB    
 
 ---
 
-## ✨ Design & Animations
+## ⚡ Skills
 
-- **Hover Effects**: Smooth card hover animations to display project details.  
-- **Color Gradients**: Modern color schemes for a clean and attractive look.  
-- **Interactive Buttons**: Animated buttons with hover transitions.  
-- **Responsive Layout**: Flexbox and grid-based layouts for mobile-friendly design.  
+### Programming Languages
+- Python, JavaScript, HTML, CSS, SQL, Java
 
----
+### Web Development
+- HTML5, CSS3, JavaScript, Bootstrap, Tailwind CSS, Streamlit, Flask, Responsive Design, UI/UX Design, GitHub Pages
 
+### Machine Learning & Data Science
+- Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, Plotly, TensorFlow, Keras, NLP, Text Classification, Regression, Classification, Clustering
+
+### Databases & Big Data
+- MySQL, MongoDB, Cassandra, SQLite, HDFS, Hive, Spark, ETL, Data Warehousing, Data Lakes
+
+### Tools & IDEs
+- Jupyter Notebook, VS Code, PyCharm, Git, GitHub, Kaggle, Google Colab, Anaconda, Postman
+
+### Data Analysis & Visualization
+- Excel (Pivot Tables, Charts, Formulas), Tableau, Power BI, Matplotlib, Seaborn, Plotly, LOD Expressions, Descriptive Statistics
+
+### Cloud & DevOps (Basics)
+- AWS (EC2, Lambda, S3), Azure (VM, Data Factory), Docker, CI/CD Basics
+
+### Additional Skills
+- OOP, Functional Programming, Data Wrangling, ETL, NLP, API Integration, Project Documentation, Version Control
+
+
+----
 ## 📫 Contact
 
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/taruntejakarimi)  
+- **LinkedIn**: [Tarun Teja Karimi](https://linkedin.com/in/taruntejakarimi)  
 - **GitHub**: [GitHub Profile](https://github.com/tarunkarimi)  
-- **Email**: your.email@example.com  
-
----
-
-> “Programs must be written for people to read, and only incidentally for machines to execute.” – Harold Abelson
+- **Email**: taruntejakarimi@gmail.com  
